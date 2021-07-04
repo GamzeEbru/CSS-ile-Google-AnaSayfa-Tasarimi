@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:14px;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  .grid{
+    height:23px;
+    position:relative;
+    bottom:4px;
+  }
+  .signbutton{
+    background-color: rgb(82, 82, 212);
+    color: whitesmoke;
+    border:none;
+    border-radius:5px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    
+  }
+  .logo{
+    margin-top:100px;/*logonun sayfa başlangıcına üstten uzaklığı*/
+    margin-bottom:25px;/*logonun arama çubuguna alttan uzaklığı*/
+  }
+  .bar{
+    margin:0 auto;
+    width:570px;
+    border-radius:20px;
+    border:1px solid whitesmoke;
+  }
+
+  .bar:hover{  /* arama çubuğu üzerine gelince gölge görünümü kazandırır*/
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
+  .bar:focus-within{/* arama çubuğu üzerine yazı yazarken gölge görünümü kazandırır*/
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+
+  
+  .searchbar{
+    height:35px;
+    border:none;
+    width:500px;
+    font-size:14px;/* arama çubuğu yazı boyutu */
+    outline: none; /* arama çubuğu kutucuk görünümünü kaldırma */
+    
+  }
+  .voice{ /* arama çubuğundaki sesli arama butonu */
+    height:20px;
+    position:relative;
+    top:4px;
+    left:5px;
+  }
+  .buttons{
+    margin-top:30px;
+  }
+  .button{
+    background-color: #f8f9fa;
+    border:none;/*butonlardaki çerçeve görüntü iptali*/
+    color:#666666;/*buton içi yazı renk*/
+    font-size:14px;
+    padding: 10px 20px;
+    margin:5px;/*arama çubuğuna üstten uzaklık*/
+    border-radius:4px; /*buton kenarı yumuşatma*/
+    outline:none;
+  }
+  .button:hover{
+    border: 1px solid #b8b5b5;
+    padding: 8px 20px;
+    color:#808080;
+  }
+  .button:focus{
+    border:1px solid #4885ed;/*tıklama efekti*/
+    padding: 8px 20px;
+  }
+  
+  .footer {
+    padding: 15px 30px;
+    margin-top: 177px;
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+ 
